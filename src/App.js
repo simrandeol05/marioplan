@@ -1,13 +1,19 @@
 import React from "react";
 import { Component } from "react";
-import "./App.css";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Navbar from "./layout/Navbar.js";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>Mario Plan</h1>
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <Navbar />
+          {/* <Switch>
+            <Route path="/" component={Dashboard} />
+          </Switch> */}
+        </div>
+      </BrowserRouter>
     );
   }
 }
