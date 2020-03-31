@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Notifications from "./Notifications";
+import Notifications from "./Notification";
 import ProjectList from "../projects/ProjectList";
 
 class Dashboard extends Component {
@@ -18,3 +18,5 @@ class Dashboard extends Component {
     );
   }
 }
+
+export default Dashboard;
