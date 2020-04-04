@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SignedInLink from "./SignedInLink";
-import SignedOutLinks from "./SignedOutLinks";
+import SignedOutLinks from "./SignedOut";
 
 const Navbar = () => {
   return (
-    <nav className="nav-wrapper grey darken-3">
+    <nav className="nav-wrapper NavClass">
       <div className="container">
         <Link to="/" className="brand-logo">
           MarioPlan
